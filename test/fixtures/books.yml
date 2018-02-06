@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  short_description: MyString
+  long_description: MyString
+  chapter_index: 1
+  publication_date: 2018-02-06
+  genre: 
+  author_id: 
+
+two:
+  name: MyString
+  short_description: MyString
+  long_description: MyString
+  chapter_index: 1
+  publication_date: 2018-02-06
+  genre: 
+  author_id: 

@@ -1,0 +1,29 @@
+System Requirements:
+
+	Ruby Version : ruby 2.2.2p95
+	Rails Version : rails 4.2.5
+	Database : MongoDB
+
+How to run
+
+	* Clone app to local
+	* Install all dependencies
+	* rake db:seed
+	* rails s
+
+	API services:
+		* To register User
+			POST 	localhost:3000/api/v1/sign_up
+			parameters: {email, password}
+
+		* To authenticate User
+			POST  localhost:3000/api/v1/auth
+			parameters: {email}
+
+			In response will get user token which is used to get data
+
+		* To get all data
+
+			GET 	localhost:3000/api/v1/get_data
+			headers: {USER-TOKEN}
+			parameters: {text}
